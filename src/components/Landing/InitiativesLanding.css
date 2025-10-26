@@ -7,11 +7,12 @@
   align-items: center;
   justify-content: center;
   background-color: black;
-  padding: 80px 20px;
+  padding: 80px 160px;
   font-family: 'Instrument Sans';
   color: #ECEAF4;
   min-height: 100vh;
   box-sizing: border-box; 
+  overflow-x: hidden;
 }
 
 .initiatives-header {
@@ -21,7 +22,6 @@
   font-weight: 500;
   line-height: normal;
   margin-left: 338px;
-  max-width: 1200px; 
   width: 100%;
 }
 
@@ -37,13 +37,13 @@
 
 .initiatives-header .subtitle {
   color: rgba(236, 234, 244, 0.80);
-  text-align: justify;
+  text-align: left;
   font-size: 40px;
   font-style: italic;
   font-weight: 400;
   line-height: normal;
   text-transform: uppercase;
-  padding-left: 272px;
+  margin-left: 272px;
   margin-top: 28px;
 }
 
@@ -99,7 +99,7 @@
   font-style: normal;
   font-weight: 600;
   line-height: 86.962%;
-  color:grey;
+  color:black;
 }
 
 .card-button {
@@ -110,6 +110,8 @@
   gap: 4px;
   border-radius: 32px;
   background: #D8E3FD;
+  color:#130D26;
+  letter-spacing: 0.24px;
   box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.20), 0 2px 6px 2px rgba(0, 0, 0, 0.15);
   cursor: pointer;
   position: absolute;
@@ -124,11 +126,13 @@
   align-items: center;
   gap: 4px;
   border-radius: 32px;
+  letter-spacing: 0.4px;
   border: 0.75px solid #CACACA;
   background: #5C35F7;
   box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.20), 0 2px 6px 2px rgba(0, 0, 0, 0.15);
   cursor: pointer;
-  font-size: 18px;
+  font-size: 20px;
+  font-weight: 600;
   color: white;
   margin-top: 84px; 
 }

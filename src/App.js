@@ -1,11 +1,11 @@
 import React from 'react';
-import Initiatives from './components/Initiatives';
+import InitiativesLanding from './components/Landing/InitiativesLanding';
 import './App.css';
 
 function App() {
   return (
     <div className="App">
-      <Initiatives />
+      <InitiativesLanding />
     </div>
   );
 }
